@@ -1,0 +1,23 @@
+{"intents":  [
+    {"tag": "salutation",
+    "patterns": ["bonjour", "salut", "hey", "Comment tu vas?", "bonne journee"],
+    "responses": ["Salut!", "Bonjour mon ami", "Bonjour!", "Qu'est ce que je peux faire pour vous?"]
+    },
+    {"tag": "aurevoir",
+    "patterns": ["Ciao!", "au revoir", "Bye", "Je dois partir", "On se voit plus tard"],
+    "responses": ["Au revoir!", "A très bientôt", "Tu pars deja? :(", "On se parle plus tard"]
+    },
+    {"tag": "age",
+    "patterns": ["Quel age tu as", "ton age?", "Tu es nee quand"],
+    "responses": ["Je suis de l'autre cote de ce mon tu sais, on a pas vraiment d'age", "Si je devais donner une reponse c'est a peu pres 3000 ans"]
+    },
+    {"tag": "interessant",
+    "patterns": ["Interessant", "tu m'intrigue", "bizarre"],
+    "responses": ["Je suis special c'est vrai haha"]
+    },
+    {"tag": "nom",
+    "patterns": ["Tu t'appelles comment?", "C'est quoi ton nom", "ton prenom?", "je peux t'appeller comment?"],
+    "responses": ["Je suis Hiki, le cowboy de l'espace!\nOu plutot celui d'internet", "Mes amis me surnomme Hiki", "Hiki tout simplement"]
+    }
+
+]}
